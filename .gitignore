@@ -1,0 +1,19 @@
+# Environments
+venv/
+.env
+__pycache__/
+*.pyc
+*.db
+
+# Node
+node_modules/
+dist/
+build/
+
+# IDEs and OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Agent
+.agent/
