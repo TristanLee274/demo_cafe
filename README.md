@@ -13,15 +13,15 @@
    ```
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 3. Initialize the database (this will create `coffee_shop.db` and seed initial data):
    ```bash
-   python seed_data.py
+   python3 seed_data.py
    ```
 4. Run the server:
    ```bash
-   python main.py
+   python3 main.py
    ```
    Server runs at `http://localhost:8000`.
 
