@@ -22,5 +22,6 @@
 - **Update Plan**: Immediately mark tasks as completed in `docs/IMPLEMENT_PLAN.md`.
 - **Git Operations**:
   - Stage changes (`git add`).
-  - Commit with conventional commits (`git commit`).
+  - Commit with convention format (see `04-coding-standards.md` for commit message rules).
   - Push to remote (`git push`).
+
