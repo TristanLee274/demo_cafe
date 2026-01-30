@@ -7,7 +7,8 @@ The project follows this strict directory structure:
   - `src/backend/`: Backend logic (Python/FastAPI/Flask).
 - `test/`: Unit, Integration, and E2E tests.
 - `scripts/`: Operational scripts (`start-be.sh`, `start-fe.sh`, `build.sh`).
-- `docs/`: Documentation (`README.md`, `SYSTEM_OPERATIONS.md`, `ERD.md`, `IMPLEMENT_PLAN.md`).
+- `docs/`: Documentation (`SYSTEM_OPERATIONS.md`, `ERD.md`, `IMPLEMENT_PLAN.md`).
+- `README.md`.
 
 ## 2. Operational Workflow
 - **Read First**: Always start by reading relevant `.md` files (specifically `docs/IMPLEMENT_PLAN.md` and related docs) before writing code.
