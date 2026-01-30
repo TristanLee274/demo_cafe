@@ -27,20 +27,21 @@ Leverage specialized agent skills to ensure high-quality output in specific doma
 15. **`senior-fullstack`**: Robust fullstack development.
 16. **`backend-dev-guidelines`**: Backend development best practices.
 17. **`legacy-modernizer`**: Refactoring and modernization.
+18. **`framework-migration-legacy-modernize`**: Comprehensive framework migration and modernization strategies.
 
 ### Java & Database
-18. **`java-pro`**: Java 17+ best practices and patterns.
-19. **`postgres-best-practices`**: PostgreSQL optimization and best practices.
-20. **`postgresql`**: PostgreSQL database operations and queries.
-21. **`database-architect`**: Advanced database architecture and scaling.
-22. **`database-design`**: Schema design and normalization.
+19. **`java-pro`**: Java 17+ best practices and patterns.
+20. **`postgres-best-practices`**: PostgreSQL optimization and best practices.
+21. **`postgresql`**: PostgreSQL database operations and queries.
+22. **`database-architect`**: Advanced database architecture and scaling.
+23. **`database-design`**: Schema design and normalization.
 
 ### Advanced Tech
-23. **`rag-engineer`**: Retrieval Augmented Generation implementation.
-24. **`vector-database-engineer`**: Vector store management.
+24. **`rag-engineer`**: Retrieval Augmented Generation implementation.
+25. **`vector-database-engineer`**: Vector store management.
 
 ### Testing & Automation
-25. **`test-driven-development`**: Test-first approach.
-26. **`browser-automation`**: E2E testing with Playwright.
-27. **`e2e-testing-patterns`**: Best practices for end-to-end testing.
-28. **`test-fixing`**: Strategies for fixing flaky or broken tests.
+26. **`test-driven-development`**: Test-first approach.
+27. **`browser-automation`**: E2E testing with Playwright.
+28. **`e2e-testing-patterns`**: Best practices for end-to-end testing.
+29. **`test-fixing`**: Strategies for fixing flaky or broken tests.
