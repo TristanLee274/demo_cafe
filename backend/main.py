@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
-from database import engine, Base
+from database import engine, Base, db_session
 from routers.auth import auth
 from routers.products import products
 from routers.orders import orders
@@ -12,6 +12,10 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'dev-secret-key-change-this-in-env' # Simple secret key
 
 CORS(app, origins=["http://localhost:5173", "http://localhost:3000", "http://127.0.0.1:5173"])
+
+@app.teardown_appcontext
+def shutdown_session(exception=None):
+    db_session.remove()
 
 # Register Blueprints
 app.register_blueprint(auth, url_prefix='/api/auth')
