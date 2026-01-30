@@ -32,7 +32,7 @@ The backend runs on port `8000` by default. It uses SQLite as the database.
 
 1.  Open a terminal and navigate to the `backend` folder:
     ```bash
-    cd backend
+    cd src/backend
     ```
 
 2.  (Recommended) Create and activate a virtual environment:
@@ -62,7 +62,7 @@ The backend runs on port `8000` by default. It uses SQLite as the database.
 
 1.  Open Command Prompt (cmd) or PowerShell and navigate to the `backend` folder:
     ```bash
-    cd backend
+    cd src/backend
     ```
 
 2.  (Recommended) Create and activate a virtual environment:
@@ -98,7 +98,7 @@ The frontend runs on port `5173` by default.
 1.  Open a **new** terminal window (keep the backend running in the first one).
 2.  Navigate to the `frontend` folder:
     ```bash
-    cd frontend
+    cd src/frontend
     ```
 
 3.  Install Node dependencies:
